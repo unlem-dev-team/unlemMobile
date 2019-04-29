@@ -57,13 +57,8 @@ static  Color barColor = Colors.black;
   }
 
   void changed(){ ///Calculate the position of indicator after each change
-    ///
-    ///
-    ///
-    var asd = _controller.page+0.49;
-    setState(() {
-      index = asd.floor();
-    });
+
+
     var EleWidth = (MediaQuery.of(context).size.width-40)/5;
     if(index!= 0){
       setState(() {
@@ -294,7 +289,7 @@ static  Color barColor = Colors.black;
           ),
           new Expanded(child: PageView(
             controller: _controller,
-
+            physics:new NeverScrollableScrollPhysics(),
             scrollDirection: Axis.horizontal,
             children: <Widget>[
               new DergiPage(),

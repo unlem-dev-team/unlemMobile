@@ -38,11 +38,11 @@ class VideoTile extends StatelessWidget {
         child: Row(
           children: <Widget>[
             new Image.network(
-              "https://drive.google.com/uc?export=download&id=1XfZsCxRMQBvx_3idaRk-py7nOGXMxwRw",
+             "https://drive.google.com/uc?export=download&id=1XfZsCxRMQBvx_3idaRk-py7nOGXMxwRw",
               width: (140.0*boxWidth)/358,
               height: (76*((140.0*boxWidth)/358))/140,
             ),
-            //new Container(width:140.0 ,height: 76.0, color: Colors.grey,),
+             //new Container(width:140.0 ,height: 76.0, color: Colors.grey,),
             new Container(
               margin: EdgeInsets.only(left: 10.0, right: 10.0),
               width: boxWidth-20-((140.0*boxWidth)/358),

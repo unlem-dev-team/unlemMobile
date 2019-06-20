@@ -31,9 +31,8 @@
       "scale" : "3x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "rsz_192.png",
+      "size" : "60x60",
       "scale" : "2x"
     },
     {
@@ -72,27 +71,23 @@
       "scale" : "2x"
     },
     {
-      "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "rsz_192-1.png",
+      "size" : "76x76",
       "scale" : "1x"
     },
     {
+      "idiom" : "ipad",
       "size" : "76x76",
-      "idiom" : "ipad",
-      "filename" : "rsz_1rsz_1192.png",
       "scale" : "2x"
     },
     {
+      "idiom" : "ipad",
       "size" : "83.5x83.5",
-      "idiom" : "ipad",
-      "filename" : "rsz_1192.png",
       "scale" : "2x"
     },
     {
-      "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "192-lanczos3.png",
+      "size" : "1024x1024",
       "scale" : "1x"
     }
   ],
